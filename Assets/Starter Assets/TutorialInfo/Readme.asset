@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 44a17a5b205fcd349a24700e6f5615bd, type: 3}
+  title: First Person Template
+  sections:
+  - heading: About this template
+    text: This template provides both a first person and a third person controller.
+      It is powered by the Universal Render Pipeline (URP).
+    linkText: 
+    url: 
+  - heading: 
+    text: You can find sample scenes for each controller in the Sample folder
+    linkText: 
+    url: 
+  - heading: 
+    text: The Starter Asset package is compatible with Unity 2022 LTS. It leverage
+      Unity's CharacterController component.
+    linkText: 
+    url: 
+  - heading: Important note
+    text: 'The Starter Asset packages require both Input System and Cinemachine packages
+      to work. '
+    linkText: 
+    url: 
+  - heading: Mobile Input
+    text: Very simple touch screen input for mobile are provided to try the controller
+      on mobile. They are setup in the sample scene, just enable UI_TouchScreenInput
+      in the hierarchy before beuilding for mobile
+    linkText: 
+    url: 
+  loadedLayout: 1
